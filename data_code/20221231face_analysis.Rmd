@@ -1,0 +1,131 @@
+---
+title: "Emotionese CogSci"
+author: "Yang Wu"
+date: "12/31/2022"
+output: html_document
+---
+# Load libraries
+```{r}
+# install.packages("readxl") you'll have to install the package first before loading it using the library() function
+library(readxl)
+library(here)
+library(dplyr)
+library(base) # for the gsub function
+library(maditr) # for the dcast function # install.packages("maditr")
+library(ggplot2)
+library(langcog)
+library(ggpubr)
+# install.packages("devtools")
+# devtools::install_github("langcog/langcog")
+library(lme4)
+library(forcats)
+library(nlme)
+```
+# Load data
+```{r}
+d_raw <- read.csv(here("data_code/combined_data.csv"))
+head(d_raw)
+```
+# Clean up data
+```{r}
+d <- d_raw %>%
+  filter(sub > 12) %>% #use the last version of the pilot
+  mutate(valence=fct_relevel(valence, "positive", "negative"),
+         #category=fct_relevel(category, "excitement", "affection", "craving"),
+         ave_rating = (HMM + BEJ)/2,
+         Condition = case_when(condition == "baby" ~ "Infant-Directed",
+                               condition == "adult" ~ "Adult-Directed"),
+         Valence = case_when(valence == "positive" ~ "Positive",
+                             valence == "negative" ~ "Negative"),
+         Category = case_when(category == "excitement" ~ "Excitement",
+                              category == "affection" ~ "Affection",
+                              category == "craving" ~ "Craving",
+                              category == "disgust" ~ "Disgust",
+                              category == "fear" ~ "Fear",
+                              category == "sadness" ~ "Sadness"),
+         Category=factor(Category, levels = c("Excitement", "Affection", "Craving", "Sadness", "Fear", "Disgust")))
+```
+# Visualize data
+### rating by condition & valence
+```{r}
+ms <- d %>%
+  group_by(Valence, Condition) %>%
+  multi_boot_standard(col = "ave_rating") 
+fig <- ggplot(ms, aes(x=Condition, y = mean, group=Valence, color=Valence)) +
+  geom_point() +
+  geom_line() +
+  geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper), width=.2,
+                 position=position_dodge(0)) +
+  ylim(-2.5, 2.5) +
+  theme_bw() +
+  #ggtitle("Valence Rating by Condition")+
+  #theme(plot.title = element_text(hjust = 0.5))+
+  ylab("Valence of Facial Expression")
+fig
+#ggsave(here("figures/221231fig_by_valence.pdf"), width = 5, height = 3)
+```
+### rating by condition & category
+```{r}
+ms_cat <- d %>%
+  group_by(Category, Condition) %>%
+  multi_boot_standard(col = "ave_rating")
+fig_cat <- ggplot(ms_cat, aes(x=Condition, y = mean, fill=Category)) +
+  geom_bar(stat="identity", color="black", position=position_dodge())+
+  geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper), width=.2,
+                 position=position_dodge(.9)) +
+  ylim(-2.5, 2.5) +
+  theme_bw() +
+  #ggtitle("Pilot 3 (n = 26): \n Baby vs. Adult")+
+  #theme(plot.title = element_text(hjust = 0.5))+
+  ylab("Valence of Facial Expression")
+fig_cat
+#ggsave(here("figures/221231fig_by_category.pdf"), width = 6, height = 3)
+#ggarrange(fig, fig_cat, labels = c("A", "B"), widths = c(1.5, 2.5), ncol = 2, nrow = 1)
+#ggsave(here("figures/221231fig_combined.png"), width = 10, height = 3)
+```
+# Analyze data
+```{r}
+model <- lme(ave_rating~Valence*Condition, random = ~Valence*Condition|sub, data = d)
+summary(model)
+
+model_positive <- lme(ave_rating ~ Condition, random = ~Condition|sub, data=d[d$Valence=="Positive",])
+summary(model_positive)
+
+model_negative <- lme(ave_rating ~ Condition, random = ~Condition|sub, data=d[d$Valence=="Negative",])
+summary(model_negative)
+
+model_adult <- lme(ave_rating ~ Valence, random = ~Valence|sub, data=d[d$Condition=="Adult-Directed",])
+summary(model_adult)
+
+model_infant <- lme(ave_rating ~ Valence, random = ~Valence|sub, data=d[d$Condition=="Infant-Directed",])
+summary(model_infant)
+
+# positive categories
+d_positive <- d[d$Valence=="Positive",]
+model_category_positive_infant <- lme(ave_rating ~ Category, random = ~Category|sub, data=d_positive[d_positive$Condition=="Infant-Directed",])
+summary(model_category_positive_infant) 
+
+model_category_positive_infant <- lme(ave_rating ~ relevel(Category, ref=2), random = ~Category|sub, data=d_positive[d_positive$Condition=="Infant-Directed",])
+summary(model_category_positive_infant) 
+
+model_category_positive_adult <- lme(ave_rating ~ Category, random = ~Category|sub, data=d_positive[d_positive$Condition=="Adult-Directed",])
+summary(model_category_positive_adult)
+
+model_category_positive_adult <- lme(ave_rating ~ relevel(Category, ref=2), random = ~Category|sub, data=d_positive[d_positive$Condition=="Adult-Directed",])
+summary(model_category_positive_adult)
+
+# negative categories
+d_negative <- d[d$Valence=="Negative",]
+model_category_negative_infant <- lme(ave_rating ~ Category, random = ~Category|sub, data=d_negative[d_negative$Condition=="Infant-Directed",])
+summary(model_category_negative_infant) 
+
+model_category_negative_infant <- lme(ave_rating ~ relevel(Category, ref=2), random = ~Category|sub, data=d_negative[d_negative$Condition=="Infant-Directed",])
+summary(model_category_negative_infant) 
+
+model_category_negative_adult <- lme(ave_rating ~ Category, random = ~Category|sub, data=d_negative[d_negative$Condition=="Adult-Directed",])
+summary(model_category_negative_adult)
+
+model_category_negative_adult <- lme(ave_rating ~ relevel(Category, ref=2), random = ~Category|sub, data=d_negative[d_negative$Condition=="Adult-Directed",])
+summary(model_category_negative_adult)
+
+```

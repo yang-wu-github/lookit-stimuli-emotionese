@@ -1,0 +1,106 @@
+---
+title: "Emotionese CogSci"
+author: "Yang Wu"
+date: "12/31/2022"
+output: html_document
+---
+# Load libraries
+```{r}
+# install.packages("readxl") you'll have to install the package first before loading it using the library() function
+library(readxl)
+library(here)
+library(dplyr)
+library(base) # for the gsub function
+library(maditr) # for the dcast function # install.packages("maditr")
+library(ggplot2)
+library(langcog)
+library(ggpubr)
+# install.packages("devtools")
+# devtools::install_github("langcog/langcog")
+library(lme4)
+library(forcats)
+library(nlme)
+library(stringr)
+library(tidyr)
+if (!require("stringr")) install.packages("stringr")
+library(stringr)
+library(data.table)
+```
+# Load data
+```{r}
+word_data <- read.csv("word_data.csv")
+condition_data <- read.csv("combined_data.csv")
+data <- merge(condition_data, word_data, by=c("video_name", "picture_num"))
+```
+# Clean up data
+```{r}
+d <- data %>%
+  filter(sub > 12) %>% #use the last version of the pilot
+  mutate(valence=fct_relevel(valence, "positive", "negative"),
+         #category=fct_relevel(category, "excitement", "affection", "craving"),
+         ave_rating = (HMM + BEJ)/2,
+         Condition = case_when(condition == "baby" ~ "Infant-Directed",
+                               condition == "adult" ~ "Adult-Directed"),
+         Valence = case_when(valence == "positive" ~ "Positive",
+                             valence == "negative" ~ "Negative"),
+         Category = case_when(category == "excitement" ~ "Excitement",
+                              category == "affection" ~ "Affection",
+                              category == "craving" ~ "Craving",
+                              category == "disgust" ~ "Disgust",
+                              category == "fear" ~ "Fear",
+                              category == "sadness" ~ "Sadness"),
+         Category=factor(Category, levels = c("Excitement", "Affection", "Craving", "Sadness", "Fear", "Disgust"))) %>%
+  select(video_name, picture_num, sub, age, Valence, Category, Condition, ave_rating, emoword_LIWC)
+```
+# Visualize data
+### Number and Type of Emotion Words (LIWC)
+```{r}
+d_new <- d %>%
+  mutate(emoword_LIWC = gsub("yummy,", "", emoword_LIWC),
+         emoword_LIWC = gsub("yum,", "", emoword_LIWC),
+         emoword_LIWC = gsub("yummy", "", emoword_LIWC),
+         emoword_LIWC = gsub("yum", "", emoword_LIWC),
+         emoword_LIWC = gsub(" ", "", emoword_LIWC)) %>%
+  gather("coding", "word", emoword_LIWC, factor_key=T) %>%
+  filter(coding=="emoword_LIWC") %>%
+  #filter(word!="") %>%
+  group_by(sub, coding, Condition) %>%
+  summarise(all_words = paste(word, collapse = ","),
+            condition_n = n()) %>%
+  mutate(total_n = lengths(lapply(strsplit(all_words, ","), function(x){x[!x ==""]})),
+         unique_words = 
+           vapply(lapply(strsplit(all_words, ","), unique), paste, character(1L), collapse = ","),
+         unique_n = lengths(lapply(strsplit(unique_words, ","), function(x){x[!x ==""]}))) %>%
+  gather("kind", "number", total_n, unique_n, factor_key=T) 
+
+ms <- d_new %>%
+  group_by(Condition, kind) %>%
+  multi_boot_standard(col = "number")
+fig <- ggplot(ms, aes(x=Condition, y = mean)) +
+  geom_point() +
+  geom_line() +
+  geom_errorbar(aes(ymin=ci_lower, ymax=ci_upper), width=.2,
+                 position=position_dodge(0)) +
+  ylim(0, 15) +
+  theme_bw() +
+  #ggtitle("Valence Rating by Condition")+
+  #theme(plot.title = element_text(hjust = 0.5))+
+  ylab("Number of Words") +
+  facet_wrap(vars(kind))
+fig
+#ggsave(here("figures/230101LIWC_words.pdf"), width = 5, height = 5)
+```
+# Analyze data
+```{r}
+d_new_wide <- spread(d_new, kind, number)
+#total_n
+t.test(total_n ~ Condition, data=d_new_wide, paired=TRUE)
+mean(d_new_wide[d_new_wide$Condition=="Infant-Directed",]$total_n)
+mean(d_new_wide[d_new_wide$Condition=="Adult-Directed",]$total_n)
+
+#unique_n
+t.test(number ~ Condition, data=d_new[d_new$kind=="unique_n",], paired=TRUE)
+mean(d_new_wide[d_new_wide$Condition=="Infant-Directed",]$unique_n)
+mean(d_new_wide[d_new_wide$Condition=="Adult-Directed",]$unique_n)
+
+```

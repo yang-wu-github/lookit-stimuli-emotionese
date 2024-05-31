@@ -1,0 +1,300 @@
+,video_name,picture_num,sub,age,gender,race/ethnicity,condition,order,picture,category,valence,HMM,BEJ
+1,Emotionese_210629_01,1,13,13.87,female,White,adult,adult_first,bubbles,excitement,positive,3,4
+2,Emotionese_210629_01,10,13,13.87,female,White,baby,adult_first,flame,fear,negative,0,-2
+3,Emotionese_210629_01,11,13,13.87,female,White,baby,adult_first,stuffed_animal,affection,positive,0,1
+4,Emotionese_210629_01,12,13,13.87,female,White,baby,adult_first,spoiled_food,disgust,negative,-1,-3
+5,Emotionese_210629_01,2,13,13.87,female,White,adult,adult_first,flame,fear,negative,2,3
+6,Emotionese_210629_01,3,13,13.87,female,White,adult,adult_first,stuffed_animal,affection,positive,3,3
+7,Emotionese_210629_01,4,13,13.87,female,White,adult,adult_first,spoiled_food,disgust,negative,-1,2
+8,Emotionese_210629_01,5,13,13.87,female,White,adult,adult_first,delicious_food,craving,positive,2,4
+9,Emotionese_210629_01,6,13,13.87,female,White,adult,adult_first,broken_toy,sadness,negative,1,3
+10,Emotionese_210629_01,7,13,13.87,female,White,baby,adult_first,delicious_food,craving,positive,1,1
+11,Emotionese_210629_01,8,13,13.87,female,White,baby,adult_first,broken_toy,sadness,negative,0,-2
+12,Emotionese_210629_01,9,13,13.87,female,White,baby,adult_first,bubbles,excitement,positive,2,4
+13,Emotionese_210702_01,1,14,9.52,male,Asian,adult,adult_first,bubbles,excitement,positive,1,2
+14,Emotionese_210702_01,10,14,9.52,male,Asian,baby,adult_first,flame,fear,negative,1,-1
+15,Emotionese_210702_01,11,14,9.52,male,Asian,baby,adult_first,stuffed_animal,affection,positive,2,1
+16,Emotionese_210702_01,12,14,9.52,male,Asian,baby,adult_first,spoiled_food,disgust,negative,0,-2
+17,Emotionese_210702_01,2,14,9.52,male,Asian,adult,adult_first,flame,fear,negative,-3,-2
+18,Emotionese_210702_01,3,14,9.52,male,Asian,adult,adult_first,stuffed_animal,affection,positive,3,3
+19,Emotionese_210702_01,4,14,9.52,male,Asian,adult,adult_first,spoiled_food,disgust,negative,-1,2
+20,Emotionese_210702_01,5,14,9.52,male,Asian,adult,adult_first,delicious_food,craving,positive,1,1
+21,Emotionese_210702_01,6,14,9.52,male,Asian,adult,adult_first,broken_toy,sadness,negative,-3,1
+22,Emotionese_210702_01,7,14,9.52,male,Asian,baby,adult_first,delicious_food,craving,positive,1,1
+23,Emotionese_210702_01,8,14,9.52,male,Asian,baby,adult_first,broken_toy,sadness,negative,-3,-3
+24,Emotionese_210702_01,9,14,9.52,male,Asian,baby,adult_first,bubbles,excitement,positive,0,0
+25,Emotionese_210702_02,1,15,13.9,female,Asian,baby,baby_first,bubbles,excitement,positive,0,2
+26,Emotionese_210702_02,10,15,13.9,female,Asian,adult,baby_first,flame,fear,negative,0,0
+27,Emotionese_210702_02,11,15,13.9,female,Asian,adult,baby_first,stuffed_animal,affection,positive,0,2
+28,Emotionese_210702_02,12,15,13.9,female,Asian,adult,baby_first,spoiled_food,disgust,negative,1,3
+29,Emotionese_210702_02,2,15,13.9,female,Asian,baby,baby_first,flame,fear,negative,1,-1
+30,Emotionese_210702_02,3,15,13.9,female,Asian,baby,baby_first,stuffed_animal,affection,positive,2,2
+31,Emotionese_210702_02,4,15,13.9,female,Asian,baby,baby_first,spoiled_food,disgust,negative,0,-1
+32,Emotionese_210702_02,5,15,13.9,female,Asian,baby,baby_first,delicious_food,craving,positive,0,1
+33,Emotionese_210702_02,6,15,13.9,female,Asian,baby,baby_first,broken_toy,sadness,negative,1,2
+34,Emotionese_210702_02,7,15,13.9,female,Asian,adult,baby_first,delicious_food,craving,positive,3,3
+35,Emotionese_210702_02,8,15,13.9,female,Asian,adult,baby_first,broken_toy,sadness,negative,1,2
+36,Emotionese_210702_02,9,15,13.9,female,Asian,adult,baby_first,bubbles,excitement,positive,1,3
+37,Emotionese_210702_03,1,16,12.23,female,White,adult,adult_first,bubbles,excitement,positive,3,3
+38,Emotionese_210702_03,10,16,12.23,female,White,baby,adult_first,flame,fear,negative,-2,-3
+39,Emotionese_210702_03,11,16,12.23,female,White,baby,adult_first,stuffed_animal,affection,positive,2,2
+40,Emotionese_210702_03,12,16,12.23,female,White,baby,adult_first,spoiled_food,disgust,negative,-4,-1
+41,Emotionese_210702_03,2,16,12.23,female,White,adult,adult_first,flame,fear,negative,3,3
+42,Emotionese_210702_03,3,16,12.23,female,White,adult,adult_first,stuffed_animal,affection,positive,3,4
+43,Emotionese_210702_03,4,16,12.23,female,White,adult,adult_first,spoiled_food,disgust,negative,1,3
+44,Emotionese_210702_03,5,16,12.23,female,White,adult,adult_first,delicious_food,craving,positive,1,3
+45,Emotionese_210702_03,6,16,12.23,female,White,adult,adult_first,broken_toy,sadness,negative,2,2
+46,Emotionese_210702_03,7,16,12.23,female,White,baby,adult_first,delicious_food,craving,positive,3,4
+47,Emotionese_210702_03,8,16,12.23,female,White,baby,adult_first,broken_toy,sadness,negative,0,1
+48,Emotionese_210702_03,9,16,12.23,female,White,baby,adult_first,bubbles,excitement,positive,2,2
+49,Emotionese_210727_01,1,20,11.19,female,"White, Other",adult,adult_first,bubbles,excitement,positive,3,3
+50,Emotionese_210727_01,10,20,11.19,female,"White, Other",baby,adult_first,flame,fear,negative,3,2
+51,Emotionese_210727_01,11,20,11.19,female,"White, Other",baby,adult_first,stuffed_animal,affection,positive,2,2
+52,Emotionese_210727_01,12,20,11.19,female,"White, Other",baby,adult_first,spoiled_food,disgust,negative,-2,-2
+53,Emotionese_210727_01,2,20,11.19,female,"White, Other",adult,adult_first,flame,fear,negative,3,3
+54,Emotionese_210727_01,3,20,11.19,female,"White, Other",adult,adult_first,stuffed_animal,affection,positive,3,3
+55,Emotionese_210727_01,4,20,11.19,female,"White, Other",adult,adult_first,spoiled_food,disgust,negative,3,1
+56,Emotionese_210727_01,5,20,11.19,female,"White, Other",adult,adult_first,delicious_food,craving,positive,2,2
+57,Emotionese_210727_01,6,20,11.19,female,"White, Other",adult,adult_first,broken_toy,sadness,negative,2,2
+58,Emotionese_210727_01,7,20,11.19,female,"White, Other",baby,adult_first,delicious_food,craving,positive,1,1
+59,Emotionese_210727_01,8,20,11.19,female,"White, Other",baby,adult_first,broken_toy,sadness,negative,1,-1
+60,Emotionese_210727_01,9,20,11.19,female,"White, Other",baby,adult_first,bubbles,excitement,positive,2,3
+61,Emotionese_210727_02,1,21,10.9,female,White,baby,baby_first,bubbles,excitement,positive,2,1
+62,Emotionese_210727_02,10,21,10.9,female,White,adult,baby_first,flame,fear,negative,2,2
+63,Emotionese_210727_02,11,21,10.9,female,White,adult,baby_first,stuffed_animal,affection,positive,-3,-2
+64,Emotionese_210727_02,12,21,10.9,female,White,adult,baby_first,spoiled_food,disgust,negative,0,-2
+65,Emotionese_210727_02,2,21,10.9,female,White,baby,baby_first,flame,fear,negative,-1,-1
+66,Emotionese_210727_02,3,21,10.9,female,White,baby,baby_first,stuffed_animal,affection,positive,2,2
+67,Emotionese_210727_02,4,21,10.9,female,White,baby,baby_first,spoiled_food,disgust,negative,0,2
+68,Emotionese_210727_02,5,21,10.9,female,White,baby,baby_first,delicious_food,craving,positive,3,3
+69,Emotionese_210727_02,6,21,10.9,female,White,baby,baby_first,broken_toy,sadness,negative,0,2
+70,Emotionese_210727_02,7,21,10.9,female,White,adult,baby_first,delicious_food,craving,positive,0,-2
+71,Emotionese_210727_02,8,21,10.9,female,White,adult,baby_first,broken_toy,sadness,negative,4,3
+72,Emotionese_210727_02,9,21,10.9,female,White,adult,baby_first,bubbles,excitement,positive,0,-2
+73,Emotionese_210729_01,1,22,10.32,female,White,adult,adult_first,bubbles,excitement,positive,0,-2
+74,Emotionese_210729_01,10,22,10.32,female,White,baby,adult_first,flame,fear,negative,0,-2
+75,Emotionese_210729_01,11,22,10.32,female,White,baby,adult_first,stuffed_animal,affection,positive,2,3
+76,Emotionese_210729_01,12,22,10.32,female,White,baby,adult_first,spoiled_food,disgust,negative,0,-1
+77,Emotionese_210729_01,2,22,10.32,female,White,adult,adult_first,flame,fear,negative,1,-1
+78,Emotionese_210729_01,3,22,10.32,female,White,adult,adult_first,stuffed_animal,affection,positive,3,4
+79,Emotionese_210729_01,4,22,10.32,female,White,adult,adult_first,spoiled_food,disgust,negative,-3,-3
+80,Emotionese_210729_01,5,22,10.32,female,White,adult,adult_first,delicious_food,craving,positive,1,-1
+81,Emotionese_210729_01,6,22,10.32,female,White,adult,adult_first,broken_toy,sadness,negative,0,-1
+82,Emotionese_210729_01,7,22,10.32,female,White,baby,adult_first,delicious_food,craving,positive,0,-2
+83,Emotionese_210729_01,8,22,10.32,female,White,baby,adult_first,broken_toy,sadness,negative,0,-2
+84,Emotionese_210729_01,9,22,10.32,female,White,baby,adult_first,bubbles,excitement,positive,2,2
+85,Emotionese_210729_02,1,23,9.84,male,"Asian, White",baby,baby_first,bubbles,excitement,positive,2,2
+86,Emotionese_210729_02,10,23,9.84,male,"Asian, White",adult,baby_first,flame,fear,negative,1,-1
+87,Emotionese_210729_02,11,23,9.84,male,"Asian, White",adult,baby_first,stuffed_animal,affection,positive,2,2
+88,Emotionese_210729_02,12,23,9.84,male,"Asian, White",adult,baby_first,spoiled_food,disgust,negative,-4,-3
+89,Emotionese_210729_02,2,23,9.84,male,"Asian, White",baby,baby_first,flame,fear,negative,3,3
+90,Emotionese_210729_02,3,23,9.84,male,"Asian, White",baby,baby_first,stuffed_animal,affection,positive,2,3
+91,Emotionese_210729_02,4,23,9.84,male,"Asian, White",baby,baby_first,spoiled_food,disgust,negative,1,2
+92,Emotionese_210729_02,5,23,9.84,male,"Asian, White",baby,baby_first,delicious_food,craving,positive,1,2
+93,Emotionese_210729_02,6,23,9.84,male,"Asian, White",baby,baby_first,broken_toy,sadness,negative,-2,-1
+94,Emotionese_210729_02,7,23,9.84,male,"Asian, White",adult,baby_first,delicious_food,craving,positive,1,2
+95,Emotionese_210729_02,8,23,9.84,male,"Asian, White",adult,baby_first,broken_toy,sadness,negative,-3,-2
+96,Emotionese_210729_02,9,23,9.84,male,"Asian, White",adult,baby_first,bubbles,excitement,positive,2,1
+97,Emotionese_210803_01,1,24,12.39,other,Hispanic/LatinX; White,adult,adult_first,bubbles,excitement,positive,0,-1
+98,Emotionese_210803_01,10,24,12.39,other,Hispanic/LatinX; White,baby,adult_first,flame,fear,negative,-1,-2
+99,Emotionese_210803_01,11,24,12.39,other,Hispanic/LatinX; White,baby,adult_first,stuffed_animal,affection,positive,0,0
+100,Emotionese_210803_01,12,24,12.39,other,Hispanic/LatinX; White,baby,adult_first,spoiled_food,disgust,negative,1,-2
+101,Emotionese_210803_01,2,24,12.39,other,Hispanic/LatinX; White,adult,adult_first,flame,fear,negative,0,-1
+102,Emotionese_210803_01,3,24,12.39,other,Hispanic/LatinX; White,adult,adult_first,stuffed_animal,affection,positive,1,2
+103,Emotionese_210803_01,4,24,12.39,other,Hispanic/LatinX; White,adult,adult_first,spoiled_food,disgust,negative,0,-1
+104,Emotionese_210803_01,5,24,12.39,other,Hispanic/LatinX; White,adult,adult_first,delicious_food,craving,positive,2,2
+105,Emotionese_210803_01,6,24,12.39,other,Hispanic/LatinX; White,adult,adult_first,broken_toy,sadness,negative,0,-1
+106,Emotionese_210803_01,7,24,12.39,other,Hispanic/LatinX; White,baby,adult_first,delicious_food,craving,positive,0,-2
+107,Emotionese_210803_01,8,24,12.39,other,Hispanic/LatinX; White,baby,adult_first,broken_toy,sadness,negative,0,-1
+108,Emotionese_210803_01,9,24,12.39,other,Hispanic/LatinX; White,baby,adult_first,bubbles,excitement,positive,0,-2
+109,Emotionese_210809_01,1,25,9.65,female,Hispanic/LatinX,baby,baby_first,bubbles,excitement,positive,3,3
+110,Emotionese_210809_01,10,25,9.65,female,Hispanic/LatinX,adult,baby_first,flame,fear,negative,1,-2
+111,Emotionese_210809_01,11,25,9.65,female,Hispanic/LatinX,adult,baby_first,stuffed_animal,affection,positive,1,1
+112,Emotionese_210809_01,12,25,9.65,female,Hispanic/LatinX,adult,baby_first,spoiled_food,disgust,negative,2,2
+113,Emotionese_210809_01,2,25,9.65,female,Hispanic/LatinX,baby,baby_first,flame,fear,negative,0,-2
+114,Emotionese_210809_01,3,25,9.65,female,Hispanic/LatinX,baby,baby_first,stuffed_animal,affection,positive,0,-1
+115,Emotionese_210809_01,4,25,9.65,female,Hispanic/LatinX,baby,baby_first,spoiled_food,disgust,negative,3,4
+116,Emotionese_210809_01,5,25,9.65,female,Hispanic/LatinX,baby,baby_first,delicious_food,craving,positive,2,2
+117,Emotionese_210809_01,6,25,9.65,female,Hispanic/LatinX,baby,baby_first,broken_toy,sadness,negative,-3,-1
+118,Emotionese_210809_01,7,25,9.65,female,Hispanic/LatinX,adult,baby_first,delicious_food,craving,positive,2,1
+119,Emotionese_210809_01,8,25,9.65,female,Hispanic/LatinX,adult,baby_first,broken_toy,sadness,negative,1,-2
+120,Emotionese_210809_01,9,25,9.65,female,Hispanic/LatinX,adult,baby_first,bubbles,excitement,positive,2,1
+121,Emotionese_210809_02,1,26,12.58,female,White,adult,adult_first,bubbles,excitement,positive,0,-2
+122,Emotionese_210809_02,10,26,12.58,female,White,baby,adult_first,flame,fear,negative,0,-1
+123,Emotionese_210809_02,11,26,12.58,female,White,baby,adult_first,stuffed_animal,affection,positive,0,-1
+124,Emotionese_210809_02,12,26,12.58,female,White,baby,adult_first,spoiled_food,disgust,negative,-1,-3
+125,Emotionese_210809_02,2,26,12.58,female,White,adult,adult_first,flame,fear,negative,3,3
+126,Emotionese_210809_02,3,26,12.58,female,White,adult,adult_first,stuffed_animal,affection,positive,2,2
+127,Emotionese_210809_02,4,26,12.58,female,White,adult,adult_first,spoiled_food,disgust,negative,3,4
+128,Emotionese_210809_02,5,26,12.58,female,White,adult,adult_first,delicious_food,craving,positive,-3,-2
+129,Emotionese_210809_02,6,26,12.58,female,White,adult,adult_first,broken_toy,sadness,negative,-2,2
+130,Emotionese_210809_02,7,26,12.58,female,White,baby,adult_first,delicious_food,craving,positive,0,0
+131,Emotionese_210809_02,8,26,12.58,female,White,baby,adult_first,broken_toy,sadness,negative,0,0
+132,Emotionese_210809_02,9,26,12.58,female,White,baby,adult_first,bubbles,excitement,positive,0,-1
+133,Emotionese_210820_01,1,28,10.42,other,"Asian, White",adult,adult_first,bubbles,excitement,positive,-1,-3
+134,Emotionese_210820_01,10,28,10.42,other,"Asian, White",baby,adult_first,flame,fear,negative,0,0
+135,Emotionese_210820_01,11,28,10.42,other,"Asian, White",baby,adult_first,stuffed_animal,affection,positive,1,2
+136,Emotionese_210820_01,12,28,10.42,other,"Asian, White",baby,adult_first,spoiled_food,disgust,negative,-1,1
+137,Emotionese_210820_01,2,28,10.42,other,"Asian, White",adult,adult_first,flame,fear,negative,-2,-1
+138,Emotionese_210820_01,3,28,10.42,other,"Asian, White",adult,adult_first,stuffed_animal,affection,positive,0,-2
+139,Emotionese_210820_01,4,28,10.42,other,"Asian, White",adult,adult_first,spoiled_food,disgust,negative,1,2
+140,Emotionese_210820_01,5,28,10.42,other,"Asian, White",adult,adult_first,delicious_food,craving,positive,0,-3
+141,Emotionese_210820_01,6,28,10.42,other,"Asian, White",adult,adult_first,broken_toy,sadness,negative,0,0
+142,Emotionese_210820_01,7,28,10.42,other,"Asian, White",baby,adult_first,delicious_food,craving,positive,2,2
+143,Emotionese_210820_01,8,28,10.42,other,"Asian, White",baby,adult_first,broken_toy,sadness,negative,0,1
+144,Emotionese_210820_01,9,28,10.42,other,"Asian, White",baby,adult_first,bubbles,excitement,positive,1,2
+145,Emotionese_210820_02,1,29,9.81,male,White,baby,baby_first,bubbles,excitement,positive,1,2
+146,Emotionese_210820_02,10,29,9.81,male,White,adult,baby_first,flame,fear,negative,1,2
+147,Emotionese_210820_02,11,29,9.81,male,White,adult,baby_first,stuffed_animal,affection,positive,1,-1
+148,Emotionese_210820_02,12,29,9.81,male,White,adult,baby_first,spoiled_food,disgust,negative,-3,-3
+149,Emotionese_210820_02,2,29,9.81,male,White,baby,baby_first,flame,fear,negative,3,2
+150,Emotionese_210820_02,3,29,9.81,male,White,baby,baby_first,stuffed_animal,affection,positive,1,1
+151,Emotionese_210820_02,4,29,9.81,male,White,baby,baby_first,spoiled_food,disgust,negative,2,3
+152,Emotionese_210820_02,5,29,9.81,male,White,baby,baby_first,delicious_food,craving,positive,-3,1
+153,Emotionese_210820_02,6,29,9.81,male,White,baby,baby_first,broken_toy,sadness,negative,1,1
+154,Emotionese_210820_02,7,29,9.81,male,White,adult,baby_first,delicious_food,craving,positive,-1,2
+155,Emotionese_210820_02,8,29,9.81,male,White,adult,baby_first,broken_toy,sadness,negative,3,3
+156,Emotionese_210820_02,9,29,9.81,male,White,adult,baby_first,bubbles,excitement,positive,2,3
+157,Emotionese_210823_01,1,30,7.81,male,White,baby,baby_first,bubbles,excitement,positive,0,1
+158,Emotionese_210823_01,10,30,7.81,male,White,adult,baby_first,flame,fear,negative,3,3
+159,Emotionese_210823_01,11,30,7.81,male,White,adult,baby_first,stuffed_animal,affection,positive,2,-1
+160,Emotionese_210823_01,12,30,7.81,male,White,adult,baby_first,spoiled_food,disgust,negative,3,2
+161,Emotionese_210823_01,2,30,7.81,male,White,baby,baby_first,flame,fear,negative,0,2
+162,Emotionese_210823_01,3,30,7.81,male,White,baby,baby_first,stuffed_animal,affection,positive,2,-2
+163,Emotionese_210823_01,4,30,7.81,male,White,baby,baby_first,spoiled_food,disgust,negative,0,1
+164,Emotionese_210823_01,5,30,7.81,male,White,baby,baby_first,delicious_food,craving,positive,3,4
+165,Emotionese_210823_01,6,30,7.81,male,White,baby,baby_first,broken_toy,sadness,negative,1,3
+166,Emotionese_210823_01,7,30,7.81,male,White,adult,baby_first,delicious_food,craving,positive,2,3
+167,Emotionese_210823_01,8,30,7.81,male,White,adult,baby_first,broken_toy,sadness,negative,3,4
+168,Emotionese_210823_01,9,30,7.81,male,White,adult,baby_first,bubbles,excitement,positive,3,3
+169,Emotionese_210823_02,1,31,10.9,male,White; Pacific Islander,adult,adult_first,bubbles,excitement,positive,3,3
+170,Emotionese_210823_02,10,31,10.9,male,White; Pacific Islander,baby,adult_first,flame,fear,negative,0,-2
+171,Emotionese_210823_02,11,31,10.9,male,White; Pacific Islander,baby,adult_first,stuffed_animal,affection,positive,2,3
+172,Emotionese_210823_02,12,31,10.9,male,White; Pacific Islander,baby,adult_first,spoiled_food,disgust,negative,0,-1
+173,Emotionese_210823_02,2,31,10.9,male,White; Pacific Islander,adult,adult_first,flame,fear,negative,2,-2
+174,Emotionese_210823_02,3,31,10.9,male,White; Pacific Islander,adult,adult_first,stuffed_animal,affection,positive,3,1
+175,Emotionese_210823_02,4,31,10.9,male,White; Pacific Islander,adult,adult_first,spoiled_food,disgust,negative,2,2
+176,Emotionese_210823_02,5,31,10.9,male,White; Pacific Islander,adult,adult_first,delicious_food,craving,positive,3,2
+177,Emotionese_210823_02,6,31,10.9,male,White; Pacific Islander,adult,adult_first,broken_toy,sadness,negative,-3,-3
+178,Emotionese_210823_02,7,31,10.9,male,White; Pacific Islander,baby,adult_first,delicious_food,craving,positive,1,1
+179,Emotionese_210823_02,8,31,10.9,male,White; Pacific Islander,baby,adult_first,broken_toy,sadness,negative,1,-2
+180,Emotionese_210823_02,9,31,10.9,male,White; Pacific Islander,baby,adult_first,bubbles,excitement,positive,2,2
+181,Emotionese_210826_01,1,32,10,female,White,baby,order_1,broken_toy,sadness,negative,-1,-2
+182,Emotionese_210826_01,10,32,10,female,White,adult,order_1,bubbles,excitement,positive,-1,-3
+183,Emotionese_210826_01,11,32,10,female,White,adult,order_1,broken_toy,sadness,negative,1,2
+184,Emotionese_210826_01,12,32,10,female,White,adult,order_1,delicious_food,craving,positive,3,3
+185,Emotionese_210826_01,2,32,10,female,White,baby,order_1,delicious_food,craving,positive,0,-2
+186,Emotionese_210826_01,3,32,10,female,White,baby,order_1,spoiled_food,disgust,negative,2,2
+187,Emotionese_210826_01,4,32,10,female,White,baby,order_1,stuffed_animal,affection,positive,1,1
+188,Emotionese_210826_01,5,32,10,female,White,baby,order_1,flame,fear,negative,0,1
+189,Emotionese_210826_01,6,32,10,female,White,baby,order_1,bubbles,excitement,positive,1,2
+190,Emotionese_210826_01,7,32,10,female,White,adult,order_1,spoiled_food,disgust,negative,2,3
+191,Emotionese_210826_01,8,32,10,female,White,adult,order_1,stuffed_animal,affection,positive,2,3
+192,Emotionese_210826_01,9,32,10,female,White,adult,order_1,flame,fear,negative,2,2
+193,Emotionese_211011_01,1,34,13.63,male,Other,baby,order_1,broken_toy,sadness,negative,-3,-3
+194,Emotionese_211011_01,10,34,13.63,male,Other,adult,order_1,bubbles,excitement,positive,3,3
+195,Emotionese_211011_01,11,34,13.63,male,Other,adult,order_1,broken_toy,sadness,negative,4,3
+196,Emotionese_211011_01,12,34,13.63,male,Other,adult,order_1,delicious_food,craving,positive,0,2
+197,Emotionese_211011_01,2,34,13.63,male,Other,baby,order_1,delicious_food,craving,positive,2,2
+198,Emotionese_211011_01,3,34,13.63,male,Other,baby,order_1,spoiled_food,disgust,negative,-4,-4
+199,Emotionese_211011_01,4,34,13.63,male,Other,baby,order_1,stuffed_animal,affection,positive,1,2
+200,Emotionese_211011_01,5,34,13.63,male,Other,baby,order_1,flame,fear,negative,-1,-3
+201,Emotionese_211011_01,6,34,13.63,male,Other,baby,order_1,bubbles,excitement,positive,1,2
+202,Emotionese_211011_01,7,34,13.63,male,Other,adult,order_1,spoiled_food,disgust,negative,2,2
+203,Emotionese_211011_01,8,34,13.63,male,Other,adult,order_1,stuffed_animal,affection,positive,2,-1
+204,Emotionese_211011_01,9,34,13.63,male,Other,adult,order_1,flame,fear,negative,1,2
+205,Emotionese_211019_01,1,35,13.09,male,Asian,baby,order_1,broken_toy,sadness,negative,-3,-3
+206,Emotionese_211019_01,10,35,13.09,male,Asian,adult,order_1,bubbles,excitement,positive,1,2
+207,Emotionese_211019_01,11,35,13.09,male,Asian,adult,order_1,broken_toy,sadness,negative,1,-1
+208,Emotionese_211019_01,12,35,13.09,male,Asian,adult,order_1,delicious_food,craving,positive,0,-1
+209,Emotionese_211019_01,2,35,13.09,male,Asian,baby,order_1,delicious_food,craving,positive,3,3
+210,Emotionese_211019_01,3,35,13.09,male,Asian,baby,order_1,spoiled_food,disgust,negative,-2,-2
+211,Emotionese_211019_01,4,35,13.09,male,Asian,baby,order_1,stuffed_animal,affection,positive,3,4
+212,Emotionese_211019_01,5,35,13.09,male,Asian,baby,order_1,flame,fear,negative,0,-1
+213,Emotionese_211019_01,6,35,13.09,male,Asian,baby,order_1,bubbles,excitement,positive,2,2
+214,Emotionese_211019_01,7,35,13.09,male,Asian,adult,order_1,spoiled_food,disgust,negative,-1,-2
+215,Emotionese_211019_01,8,35,13.09,male,Asian,adult,order_1,stuffed_animal,affection,positive,-1,-3
+216,Emotionese_211019_01,9,35,13.09,male,Asian,adult,order_1,flame,fear,negative,-1,-1
+217,Emotionese_211029_01,1,36,12.11,male,"Asian, White",baby,order_1,broken_toy,sadness,negative,0,1
+218,Emotionese_211029_01,10,36,12.11,male,"Asian, White",adult,order_1,bubbles,excitement,positive,0,-2
+219,Emotionese_211029_01,11,36,12.11,male,"Asian, White",adult,order_1,broken_toy,sadness,negative,2,3
+220,Emotionese_211029_01,12,36,12.11,male,"Asian, White",adult,order_1,delicious_food,craving,positive,0,1
+221,Emotionese_211029_01,2,36,12.11,male,"Asian, White",baby,order_1,delicious_food,craving,positive,1,2
+222,Emotionese_211029_01,3,36,12.11,male,"Asian, White",baby,order_1,spoiled_food,disgust,negative,1,-1
+223,Emotionese_211029_01,4,36,12.11,male,"Asian, White",baby,order_1,stuffed_animal,affection,positive,2,2
+224,Emotionese_211029_01,5,36,12.11,male,"Asian, White",baby,order_1,flame,fear,negative,0,1
+225,Emotionese_211029_01,6,36,12.11,male,"Asian, White",baby,order_1,bubbles,excitement,positive,0,-1
+226,Emotionese_211029_01,7,36,12.11,male,"Asian, White",adult,order_1,spoiled_food,disgust,negative,3,3
+227,Emotionese_211029_01,8,36,12.11,male,"Asian, White",adult,order_1,stuffed_animal,affection,positive,0,-3
+228,Emotionese_211029_01,9,36,12.11,male,"Asian, White",adult,order_1,flame,fear,negative,1,0
+229,Emotionese_211119_01,1,37,8.72,female,Asian,baby,order_2,bubbles,excitement,positive,2,3
+230,Emotionese_211119_01,10,37,8.72,female,Asian,adult,order_2,flame,fear,negative,0,2
+231,Emotionese_211119_01,11,37,8.72,female,Asian,adult,order_2,stuffed_animal,affection,positive,0,1
+232,Emotionese_211119_01,12,37,8.72,female,Asian,adult,order_2,spoiled_food,disgust,negative,0,0
+233,Emotionese_211119_01,2,37,8.72,female,Asian,baby,order_2,flame,fear,negative,0,2
+234,Emotionese_211119_01,3,37,8.72,female,Asian,baby,order_2,ps,affection,positive,1,2
+235,Emotionese_211119_01,4,37,8.72,female,Asian,baby,order_2,spoiled_food,disgust,negative,0,1
+236,Emotionese_211119_01,5,37,8.72,female,Asian,baby,order_2,delicious_food,craving,positive,3,3
+237,Emotionese_211119_01,6,37,8.72,female,Asian,baby,order_2,broken_toy,sadness,negative,2,2
+238,Emotionese_211119_01,7,37,8.72,female,Asian,adult,order_2,delicious_food,craving,positive,1,1
+239,Emotionese_211119_01,8,37,8.72,female,Asian,adult,order_2,broken_toy,sadness,negative,0,0
+240,Emotionese_211119_01,9,37,8.72,female,Asian,adult,order_2,bubbles,excitement,positive,0,0
+241,Emotionese_211202_01,1,38,8.1,male,White,adult,order_3,broken_toy,sadness,negative,2,3
+242,Emotionese_211202_01,10,38,8.1,male,White,baby,order_3,bubbles,excitement,positive,0,0
+243,Emotionese_211202_01,11,38,8.1,male,White,baby,order_3,broken_toy,sadness,negative,-1,1
+244,Emotionese_211202_01,12,38,8.1,male,White,baby,order_3,delicious_food,craving,positive,1,2
+245,Emotionese_211202_01,2,38,8.1,male,White,adult,order_3,delicious_food,craving,positive,2,4
+246,Emotionese_211202_01,3,38,8.1,male,White,adult,order_3,spoiled_food,disgust,negative,4,4
+247,Emotionese_211202_01,4,38,8.1,male,White,adult,order_3,stuffed_animal,affection,positive,-2,2
+248,Emotionese_211202_01,5,38,8.1,male,White,adult,order_3,flame,fear,negative,0,1
+249,Emotionese_211202_01,6,38,8.1,male,White,adult,order_3,bubbles,excitement,positive,-1,2
+250,Emotionese_211202_01,7,38,8.1,male,White,baby,order_3,spoiled_food,disgust,negative,3,3
+251,Emotionese_211202_01,8,38,8.1,male,White,baby,order_3,stuffed_animal,affection,positive,1,2
+252,Emotionese_211202_01,9,38,8.1,male,White,baby,order_3,flame,fear,negative,1,2
+253,Emotionese_220124_01,1,39,12.21,male,White,adult,order_4,bubbles,excitement,positive,0,-1
+254,Emotionese_220124_01,10,39,12.21,male,White,baby,order_4,flame,fear,negative,0,2
+255,Emotionese_220124_01,11,39,12.21,male,White,baby,order_4,stuffed_animal,affection,positive,3,3
+256,Emotionese_220124_01,12,39,12.21,male,White,baby,order_4,spoiled_food,disgust,negative,1,2
+257,Emotionese_220124_01,2,39,12.21,male,White,adult,order_4,flame,fear,negative,0,0
+258,Emotionese_220124_01,3,39,12.21,male,White,adult,order_4,stuffed_animal,affection,positive,0,1
+259,Emotionese_220124_01,4,39,12.21,male,White,adult,order_4,spoiled_food,disgust,negative,0,-2
+260,Emotionese_220124_01,5,39,12.21,male,White,adult,order_4,delicious_food,craving,positive,0,0
+261,Emotionese_220124_01,6,39,12.21,male,White,adult,order_4,broken_toy,sadness,negative,0,1
+262,Emotionese_220124_01,7,39,12.21,male,White,baby,order_4,delicious_food,craving,positive,3,4
+263,Emotionese_220124_01,8,39,12.21,male,White,baby,order_4,broken_toy,sadness,negative,1,2
+264,Emotionese_220124_01,9,39,12.21,male,White,baby,order_4,bubbles,excitement,positive,2,3
+265,Emotionese_220127_01,1,40,8.47,male,White,adult,order_4,bubbles,excitement,positive,1,2
+266,Emotionese_220127_01,10,40,8.47,male,White,baby,order_4,flame,fear,negative,0,1
+267,Emotionese_220127_01,11,40,8.47,male,White,baby,order_4,stuffed_animal,affection,positive,2,3
+268,Emotionese_220127_01,12,40,8.47,male,White,baby,order_4,spoiled_food,disgust,negative,0,-1
+269,Emotionese_220127_01,2,40,8.47,male,White,adult,order_4,flame,fear,negative,1,2
+270,Emotionese_220127_01,3,40,8.47,male,White,adult,order_4,stuffed_animal,affection,positive,0,2
+271,Emotionese_220127_01,4,40,8.47,male,White,adult,order_4,spoiled_food,disgust,negative,0,1
+272,Emotionese_220127_01,5,40,8.47,male,White,adult,order_4,delicious_food,craving,positive,0,-1
+273,Emotionese_220127_01,6,40,8.47,male,White,adult,order_4,broken_toy,sadness,negative,-1,1
+274,Emotionese_220127_01,7,40,8.47,male,White,baby,order_4,delicious_food,craving,positive,1,1
+275,Emotionese_220127_01,8,40,8.47,male,White,baby,order_4,broken_toy,sadness,negative,-1,0
+276,Emotionese_220127_01,9,40,8.47,male,White,baby,order_4,bubbles,excitement,positive,1,2
+277,Emotionese_220211_01,1,41,11.72,male,Hispanic/LatinX; African/Black,baby,order_1,broken_toy,sadness,negative,1,3
+278,Emotionese_220211_01,10,41,11.72,male,Hispanic/LatinX; African/Black,adult,order_1,bubbles,excitement,positive,-2,-2
+279,Emotionese_220211_01,11,41,11.72,male,Hispanic/LatinX; African/Black,adult,order_1,broken_toy,sadness,negative,-3,2
+280,Emotionese_220211_01,12,41,11.72,male,Hispanic/LatinX; African/Black,adult,order_1,delicious_food,craving,positive,-2,-2
+281,Emotionese_220211_01,3,41,11.72,male,Hispanic/LatinX; African/Black,baby,order_1,spoiled_food,disgust,negative,1,1
+282,Emotionese_220211_01,4,41,11.72,male,Hispanic/LatinX; African/Black,baby,order_1,stuffed_animal,affection,positive,2,2
+283,Emotionese_220211_01,5,41,11.72,male,Hispanic/LatinX; African/Black,baby,order_1,flame,fear,negative,0,1
+284,Emotionese_220211_01,6,41,11.72,male,Hispanic/LatinX; African/Black,baby,order_1,bubbles,excitement,positive,1,1
+285,Emotionese_220211_01,7,41,11.72,male,Hispanic/LatinX; African/Black,adult,order_1,spoiled_food,disgust,negative,2,3
+286,Emotionese_220211_01,8,41,11.72,male,Hispanic/LatinX; African/Black,adult,order_1,stuffed_animal,affection,positive,-1,-3
+287,Emotionese_220211_01,9,41,11.72,male,Hispanic/LatinX; African/Black,adult,order_1,flame,fear,negative,2,2
+288,Emotionese_220218_01,1,42,13.79,female,White,baby,order_2,bubbles,excitement,positive,2,2
+289,Emotionese_220218_01,10,42,13.79,female,White,adult,order_2,flame,fear,negative,0,-1
+290,Emotionese_220218_01,11,42,13.79,female,White,adult,order_2,stuffed_animal,affection,positive,0,-2
+291,Emotionese_220218_01,12,42,13.79,female,White,adult,order_2,spoiled_food,disgust,negative,0,-3
+292,Emotionese_220218_01,2,42,13.79,female,White,baby,order_2,flame,fear,negative,-2,-2
+293,Emotionese_220218_01,3,42,13.79,female,White,baby,order_2,ps,affection,positive,4,3
+294,Emotionese_220218_01,4,42,13.79,female,White,baby,order_2,spoiled_food,disgust,negative,-4,-4
+295,Emotionese_220218_01,5,42,13.79,female,White,baby,order_2,delicious_food,craving,positive,3,3
+296,Emotionese_220218_01,6,42,13.79,female,White,baby,order_2,broken_toy,sadness,negative,-1,2
+297,Emotionese_220218_01,7,42,13.79,female,White,adult,order_2,delicious_food,craving,positive,0,-2
+298,Emotionese_220218_01,8,42,13.79,female,White,adult,order_2,broken_toy,sadness,negative,1,-2
+299,Emotionese_220218_01,9,42,13.79,female,White,adult,order_2,bubbles,excitement,positive,0,-1
